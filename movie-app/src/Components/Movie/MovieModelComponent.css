@@ -1,0 +1,71 @@
+.movie-model-card{
+  padding:8px;
+  margin: auto;
+  background-color: #fff;
+  width: 20rem;
+  border:none;
+  border-radius: 18px;
+  /* box-shadow: 0 0 8px lightgray; */
+  z-index: 10;
+  position: fixed;
+  top: 20vh;
+  left: calc(50% - 10rem);
+  overflow-y: auto;
+  
+}
+.backdrop{
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.66);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+.model-image{
+    width: 100%;
+    height: 180px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.btn{
+    background: black;
+    color: white;
+    padding: 12px 38px;
+    border: none;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px 0 0 0;
+    cursor: pointer;
+}
+
+.btn:hover{
+  background-color: rgb(23, 19, 19);
+}
+.flex-apart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+
+}
+.tag{
+    color: rgb(68, 68, 68);
+    background-color: lightgrey;
+    margin: 0 20px;
+    padding: 3px 20px;
+    border-radius: 8px;
+}
+.m-0{
+    margin: 0;
+  }
+  .mb-0{
+    margin-bottom:0 ;
+  }
+  .p-0{
+    padding: 0;
+  }
+  .pb-0{
+    padding-bottom:0 ;
+  }

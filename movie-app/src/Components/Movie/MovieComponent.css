@@ -1,0 +1,22 @@
+.card-img{
+    height: 300px;
+    width:100%;
+    object-fit: cover;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.movie-card{
+    width: 200px;
+    height: 400px;
+    margin:20px;
+    /* border: 1px solid red; */
+}
+.movie-card h3{
+    /* margin-left: 10px; */
+    margin-top: 0;
+}
+.movie-card p{
+    /* margin-left: 10px; */
+    margin-top: 0;
+    font-size: 12px;
+}
